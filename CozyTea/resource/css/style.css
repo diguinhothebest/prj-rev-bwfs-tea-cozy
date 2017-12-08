@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    font-family: helvetica;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+    opacity: 0.9;
+}
+div{
+    display: block;
+    /*HEADER STYLE*/
+}
+header {
+    width: 150%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items:center;
+    text-align: right;
+    margin-right: 0;
+
+}
+header img{
+  padding-left: 10px;
+  height: 50px;
+  align-items: flex-start;
+  left: 0;
+  margin-left: 0;
+  position: absolute;
+}
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mainly {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+   /*HEADER STYLE ENDS*/
+
+   /*MISSION-MAIN CONTENT STARTS*/
+
+#mission {
+    height: 700px;
+    background-image: url(../img-mission-background.jpg);
+    padding-top: 70px;
+    width: 1200px;
+    align-items: center;
+}
+#mission .subtitle {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#mission {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+   /*MISSION-MAIN CONTENT ENDS*/
+   /*MENU STARTS*/
+#menu{
+    height: 700px;
+    width: 50%;
+    padding-top: 70px;
+    margin: auto;
+    display: block;
+    align-items: flex-end;
+
+}
+.item img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    display: block;
+    padding-left: 0;
+
+
+
+  }
+div .flexcontainer{
+  width: auto;
+  height: auto;
+  flex-wrap: wrap;
+  display: inline-flex;
+
+}
+div #menu{
+  width: auto;
+  height: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  display: block;
+  position: relative;
+}
+#places> .locations{
+  float:left;
+}
+  /*MENU ENDS*/
+
+      /*LOCATION STARTS*/
+#places> h3 {
+  background-image: url(../img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+}
+div {
+  display: block;
+}
+#places .flexcontainer {
+    margin: auto;
+    width: 1100px;
+}
+
+.flexcontainer .locations {
+    padding-top: 5px;
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.locations {
+    opacity: 1.0;
+    width: 300px;
+    height: 300px;
+    padding-top: 15px;
+  }
+      /*LOCATION ENDS*/
+
+#contact {
+    height: 200px;
+    padding-top: 10px;
+
+}
+
+.copyright{
+  margin-left: 0;
+  padding-left: 20px;
+  width: 350px;
+  text-align: left;
+
+
+}
